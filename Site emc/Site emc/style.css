@@ -1,0 +1,32 @@
+/* 🎨 Titre stylé */
+.title-styled {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffdd57;
+    text-shadow: 
+        0 0 10px #ffdd57,
+        0 0 20px #ffdd57,
+        0 0 40px #ffae00,
+        0 0 80px #ffae00;
+    animation: glow 3s ease-in-out infinite alternate;
+    margin-top: 1rem;
+}
+
+/* ✨ Animation du glow */
+@keyframes glow {
+    from {
+        text-shadow:
+            0 0 10px #ffdd57,
+            0 0 20px #ffdd57,
+            0 0 40px #ffae00;
+    }
+    to {
+        text-shadow:
+            0 0 20px #fff176,
+            0 0 40px #ffd740,
+            0 0 80px #ffca28;
+    }
+}
